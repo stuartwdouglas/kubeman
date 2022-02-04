@@ -1,0 +1,17 @@
+request:GET /v1.32/version HTTP/1.1
+request:accept: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 200 OK
+response:Api-Version: 1.41
+response:Content-Type: application/json
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:33 GMT
+response:Content-Length: 865
+response:
+response:{"Platform":{"Name":"Docker Engine - Community"},"Components":[{"Name":"Engine","Version":"20.10.3","Details":{"ApiVersion":"1.41","Arch":"amd64","BuildTime":"2021-01-29T14:32:09.000000000+00:00","Experimental":"false","GitCommit":"46229ca","GoVersion":"go1.13.15","KernelVersion":"5.15.16-200.fc35.x86_64","MinAPIVersion":"1.12","Os":"linux"}},{"Name":"containerd","Version":"1.4.3","Details":{"GitCommit":"269548fa27e0089a8b8278fc4fc781d7f65a939b"}},{"Name":"runc","Version":"1.0.0-rc92","Details":{"GitCommit":"ff819c7e9184c13b7c2607fe6c30ae19403a7aff"}},{"Name":"docker-init","Version":"0.19.0","Details":{"GitCommit":"de40ad0"}}],"Version":"20.10.3","ApiVersion":"1.41","MinAPIVersion":"1.12","GitCommit":"46229ca","GoVersion":"go1.13.15","Os":"linux","Arch":"amd64","KernelVersion":"5.15.16-200.fc35.x86_64","BuildTime":"2021-01-29T14:32:09.000000000+00:00"}

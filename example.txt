@@ -1,0 +1,431 @@
+
+request:GET /v1.32/containers/12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f/logs?stdout=true&stderr=true&follow=true&since=0 HTTP/1.1
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:response:HTTP/1.1 200 OK
+response:Api-Version: 1.41
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:Transfer-Encoding: chunked
+response:
+User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+response:2e
+response:      &2022/02/04 02:16:34 Pinging Docker...
+response:
+response:38
+request:response:
+      02022/02/04 02:16:34 Docker daemon is available!
+response:
+response:35
+response:      -2022/02/04 02:16:34 Starting on port 8080...
+response:
+response:25
+response:      2022/02/04 02:16:34 Started!
+response:
+Accepted
+request:GET /v1.32/containers/12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f/json HTTP/1.1
+request:accept: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 200 OK
+response:Api-Version: 1.41
+response:Content-Type: application/json
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:Transfer-Encoding: chunked
+response:
+response:13ef
+response:{"Id":"12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f","Created":"2022-02-04T02:16:34.029242786Z","Path":"/app","Args":[],"State":{"Status":"running","Running":true,"Paused":false,"Restarting":false,"OOMKilled":false,"Dead":false,"Pid":1451875,"ExitCode":0,"Error":"","StartedAt":"2022-02-04T02:16:34.296278729Z","FinishedAt":"0001-01-01T00:00:00Z"},"Image":"sha256:64f4b02dc9864d9621d248e55835408a03b3cd8239b790e610c71c29ea45a3b9","ResolvConfPath":"/var/lib/docker/containers/12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f/resolv.conf","HostnamePath":"/var/lib/docker/containers/12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f/hostname","HostsPath":"/var/lib/docker/containers/12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f/hosts","LogPath":"/var/lib/docker/containers/12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f/12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f-json.log","Name":"/testcontainers-ryuk-bde12f55-4cc2-4085-affa-534f5518a691","RestartCount":0,"Driver":"overlay2","Platform":"linux","MountLabel":"","ProcessLabel":"","AppArmorProfile":"","ExecIDs":null,"HostConfig":{"Binds":["/var/run/docker.sock:/var/run/docker.sock:rw"],"ContainerIDFile":"","LogConfig":{"Type":"json-file","Config":{}},"NetworkMode":"default","PortBindings":{"8080/tcp":[{"HostIp":"","HostPort":""}]},"RestartPolicy":{"Name":"","MaximumRetryCount":0},"AutoRemove":true,"VolumeDriver":"","VolumesFrom":null,"CapAdd":null,"CapDrop":null,"CgroupnsMode":"host","Dns":null,"DnsOptions":null,"DnsSearch":null,"ExtraHosts":null,"GroupAdd":null,"IpcMode":"shareable","Cgroup":"","Links":null,"OomScoreAdj":0,"PidMode":"","Privileged":false,"PublishAllPorts":false,"ReadonlyRootfs":false,"SecurityOpt":null,"UTSMode":"","UsernsMode":"","ShmSize":67108864,"Runtime":"runc","ConsoleSize":[0,0],"Isolation":"","CpuShares":0,"Memory":0,"NanoCpus":0,"CgroupParent":"","BlkioWeight":0,"BlkioWeightDevice":null,"BlkioDeviceReadBps":null,"BlkioDeviceWriteBps":null,"BlkioDeviceReadIOps":null,"BlkioDeviceWriteIOps":null,"CpuPeriod":0,"CpuQuota":0,"CpuRealtimePeriod":0,"CpuRealtimeRuntime":0,"CpusetCpus":"","CpusetMems":"","Devices":null,"DeviceCgroupRules":null,"DeviceRequests":null,"KernelMemory":0,"KernelMemoryTCP":0,"MemoryReservation":0,"MemorySwap":0,"MemorySwappiness":null,"OomKillDisable":false,"PidsLimit":null,"Ulimits":null,"CpuCount":0,"CpuPercent":0,"IOMaximumIOps":0,"IOMaximumBandwidth":0,"MaskedPaths":["/proc/asound","/proc/acpi","/proc/kcore","/proc/keys","/proc/latency_stats","/proc/timer_list","/proc/timer_stats","/proc/sched_debug","/proc/scsi","/sys/firmware"],"ReadonlyPaths":["/proc/bus","/proc/fs","/proc/irq","/proc/sys","/proc/sysrq-trigger"]},"GraphDriver":{"Data":{"LowerDir":"/var/lib/docker/overlay2/c829d6e34e09766179d08e7c71438bfa114bceb5f51269ccbf9f64a6c45c0616-init/diff:/var/lib/docker/overlay2/f9ea08b5bb4862ebba4e2ebd59e1349e821cb1f0d726f4f7feca46f7cd14c322/diff:/var/lib/docker/overlay2/a593020cad75e3c4d38122333bc02c7e3e2934809073120e15859585c27d5de6/diff:/var/lib/docker/overlay2/b9354bd90cce3dc7451b3b1d655533ae74f10ed7be092de9acffca43ba1d27e9/diff","MergedDir":"/var/lib/docker/overlay2/c829d6e34e09766179d08e7c71438bfa114bceb5f51269ccbf9f64a6c45c0616/merged","UpperDir":"/var/lib/docker/overlay2/c829d6e34e09766179d08e7c71438bfa114bceb5f51269ccbf9f64a6c45c0616/diff","WorkDir":"/var/lib/docker/overlay2/c829d6e34e09766179d08e7c71438bfa114bceb5f51269ccbf9f64a6c45c0616/work"},"Name":"overlay2"},"Mounts":[{"Type":"bind","Source":"/var/run/docker.sock","Destination":"/var/run/docker.sock","Mode":"rw","RW":true,"Propagation":"rprivate"}],"Config":{"Hostname":"12c4ae9e85a0","Domainname":"","User":"","AttachStdin":false,"AttachStdout":false,"AttachStderr":false,"ExposedPorts":{"8080/tcp":{}},"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"],"Cmd":["/app"],"Image":"testcontainers/ryuk:0.3.3","Volumes":null,"WorkingDir":"","Entrypoint":null,"OnBuild":null,"Labels":{"org.testcontainers":"true"}},"NetworkSettings":{"Bridge":"","SandboxID":"e18f8355c7b979973c429101c60fc48b8afd0e197358b999e0540b9c42bfdea9","HairpinMode":false,"LinkLocalIPv6Address":"","LinkLocalIPv6PrefixLen":0,"Ports":{"8080/tcp":[{"HostIp":"0.0.0.0","HostPort":"49223"}]},"SandboxKey":"/var/run/docker/netns/e18f8355c7b9","SecondaryIPAddresses":null,"SecondaryIPv6Addresses":null,"EndpointID":"8ad22df127ce6db6074b852c35531cd7fa5d144390824fe04e076271da4a1e1d","Gateway":"172.17.0.1","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"IPAddress":"172.17.0.3","IPPrefixLen":16,"IPv6Gateway":"","MacAddress":"02:42:ac:11:00:03","Networks":{"bridge":{"IPAMConfig":null,"Links":null,"Aliases":null,"NetworkID":"09531449f7966d9b964a855c4943befc3b93cd44c857f39798e4b0689a286d76","EndpointID":"8ad22df127ce6db6074b852c35531cd7fa5d144390824fe04e076271da4a1e1d","Gateway":"172.17.0.1","IPAddress":"172.17.0.3","IPPrefixLen":16,"IPv6Gateway":"","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"MacAddress":"02:42:ac:11:00:03","DriverOpts":null}}}}
+response:
+response:0
+response:
+response:43
+response:      ;2022/02/04 02:16:34 New client connected: 172.17.0.1:56166
+response:
+response:3a
+response:      22022/02/04 02:16:34 Received the first connection
+response:
+response:97
+response:      �2022/02/04 02:16:34 Adding {"label":{"org.testcontainers.sessionId=bde12f55-4cc2-4085-affa-534f5518a691":true,"org.testcontainers=true":true}}
+response:
+request:POST /v1.32/containers/12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f/exec HTTP/1.1
+request:accept: application/json
+request:content-type: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Content-Length: 229
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 201 Created
+response:Api-Version: 1.41
+response:Content-Type: application/json
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:Content-Length: 74
+response:
+response:{"Id":"6ad2de8048a8d377e923e3469b3b0ebb62fcff0253193aa050eb6a57e8fa6014"}
+request:{"containerId":"12c4ae9e85a0e4a95e56eed56ea1de3b060f7878e9f687ac1ea6554f0bc8d21f","AttachStdin":null,"AttachStdout":true,"AttachStderr":null,"Tty":null,"Privileged":null,"User":null,"Cmd":["df","-P"],"Env":null,"WorkingDir":null}POST /v1.32/exec/6ad2de8048a8d377e923e3469b3b0ebb62fcff0253193aa050eb6a57e8fa6014/start HTTP/1.1
+Exception in thread "Thread-1" java.lang.RuntimeException: java.net.SocketException: Connection reset
+	at com.github.stuartwdouglas.dockerfaker.InputPump.run(BogusHost.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.InputStream.read(InputStream.java:218)
+	at com.github.stuartwdouglas.dockerfaker.InputPump.run(BogusHost.java:64)
+	... 1 more
+request:accept: application/json
+request:content-type: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Content-Length: 26
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 200 OK
+response:Content-Type: application/vnd.docker.raw-stream
+response:Api-Version: 1.41
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:
+response:      Filesystem           1024-blocks    Used Available Capacity Mounted on
+response:overlay              793682928 557591092 198515744  74% /
+response:tmpfs                    65536         0     65536   0% /dev
+response:tmpfs                 32926204         0  32926204   0% /sys/fs/cgroup
+response:/dev/mapper/fedora_localhost--live-root                    793682928 557591092 198515744  74% /etc/resolv.conf
+response:/dev/mapper/fedora_localhost--live-root                    793682928 557591092 198515744  74% /etc/hostname
+response:/dev/mapper/fedora_localhost--live-root                    793682928 557591092 198515744  74% /etc/hosts
+response:shm                      65536         0     65536   0% /dev/shm
+response:tmpfs                 13170484      3020  13167464   0% /run/docker.sock
+response:tmpfs                 32926204         0  32926204   0% /proc/asound
+response:tmpfs                 32926204         0  32926204   0% /proc/acpi
+response:tmpfs                    65536         0     65536   0% /proc/kcore
+response:tmpfs                    65536         0     65536   0% /proc/keys
+response:tmpfs                    65536         0     65536   0% /proc/latency_stats
+response:tmpfs                    65536         0     65536   0% /proc/timer_list
+response:tmpfs                 32926204         0  32926204   0% /proc/scsi
+response:tmpfs                 32926204         0  32926204   0% /sys/firmware
+Accepted
+
+request:response:
+GET /v1.32/images/docker.io%2Fpostgres:14.1/json HTTP/1.1
+response:0
+response:
+request:accept: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 200 OK
+response:Api-Version: 1.41
+response:Content-Type: application/json
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:Transfer-Encoding: chunked
+response:
+response:113f
+response:{"Id":"sha256:e94a3bb612246f1f672a0d11fbd16415e2f95d308b37d38deaa8c2bd3c0116d8","RepoTags":["postgres:14.1"],"RepoDigests":["postgres@sha256:f76241d07218561e3d1a334eae6a5bf63c70b49f35ffecb7f020448e30e37390"],"Parent":"","Comment":"","Created":"2021-12-02T23:25:29.696778945Z","Container":"05b81f73c2ed5702525dc764d7138764d8612f214eec3c8a44d02fe39f7763fd","ContainerConfig":{"Hostname":"05b81f73c2ed","Domainname":"","User":"","AttachStdin":false,"AttachStdout":false,"AttachStderr":false,"ExposedPorts":{"5432/tcp":{}},"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/14/bin","GOSU_VERSION=1.14","LANG=en_US.utf8","PG_MAJOR=14","PG_VERSION=14.1-1.pgdg110+1","PGDATA=/var/lib/postgresql/data"],"Cmd":["/bin/sh","-c","#(nop) ","CMD [\"postgres\"]"],"Image":"sha256:56fc56d02438b9c34ccf1c815fc8644b5fcbf13c24d0514edec67c495d72e00e","Volumes":{"/var/lib/postgresql/data":{}},"WorkingDir":"","Entrypoint":["docker-entrypoint.sh"],"OnBuild":null,"Labels":{},"StopSignal":"SIGINT"},"DockerVersion":"20.10.7","Author":"","Config":{"Hostname":"","Domainname":"","User":"","AttachStdin":false,"AttachStdout":false,"AttachStderr":false,"ExposedPorts":{"5432/tcp":{}},"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/14/bin","GOSU_VERSION=1.14","LANG=en_US.utf8","PG_MAJOR=14","PG_VERSION=14.1-1.pgdg110+1","PGDATA=/var/lib/postgresql/data"],"Cmd":["postgres"],"Image":"sha256:56fc56d02438b9c34ccf1c815fc8644b5fcbf13c24d0514edec67c495d72e00e","Volumes":{"/var/lib/postgresql/data":{}},"WorkingDir":"","Entrypoint":["docker-entrypoint.sh"],"OnBuild":null,"Labels":null,"StopSignal":"SIGINT"},"Architecture":"amd64","Os":"linux","Size":374037549,"VirtualSize":374037549,"GraphDriver":{"Data":{"LowerDir":"/var/lib/docker/overlay2/2efbbaba203e086992397e37e3684acafa770bf5a771cef9a9f161d3c362c671/diff:/var/lib/docker/overlay2/be97b70be1c8dc1248f68517b5821f584b3b812158faa981362a888706434b3c/diff:/var/lib/docker/overlay2/e513222fa269966fe5a28cf43892fef2c223fd2048c7af9c0cac1e61dee76877/diff:/var/lib/docker/overlay2/8c3a5a6dcc0e8aecc5dbcf94514f2317934aa8ec330a868a224df0defa7d4fe3/diff:/var/lib/docker/overlay2/f41bda7aabbb02e163d3ceaff08958b93701a784bc3dccc1c5813e0e8b59d278/diff:/var/lib/docker/overlay2/90f34a447e5d8e260fccb141e68a0f37eeb1e64647d1215248d030965d2fc596/diff:/var/lib/docker/overlay2/332002fc1d520bd39c0076ed38882a55a66aa946d129e15f036fd90ced1b99da/diff:/var/lib/docker/overlay2/8cfb9835b77e989a773f1517a756faa5fe99fce3ce26b7aa65f04b35f7995412/diff:/var/lib/docker/overlay2/fabc858b50ea6dbf33688a173380d4764be7a300b0ae345f8d7e23fc5e22433b/diff:/var/lib/docker/overlay2/06acb3f3ae212f592f0b138134eb5e6e12d06eb00ea700e1bde10dfc95544ee8/diff:/var/lib/docker/overlay2/a0c4eb14aa5b6aa0449576259a1c7b71d077edbd08a096c235f66de1b8566fea/diff:/var/lib/docker/overlay2/c9314f8688317a15c70d594fa5f465e042e58919e26e0b31a40a29389f2e1992/diff","MergedDir":"/var/lib/docker/overlay2/5669b53b469fc29786be30e9fd90c2a0573fa5b0af5e9ec86847f240f6ebcd88/merged","UpperDir":"/var/lib/docker/overlay2/5669b53b469fc29786be30e9fd90c2a0573fa5b0af5e9ec86847f240f6ebcd88/diff","WorkDir":"/var/lib/docker/overlay2/5669b53b469fc29786be30e9fd90c2a0573fa5b0af5e9ec86847f240f6ebcd88/work"},"Name":"overlay2"},"RootFS":{"Type":"layers","Layers":["sha256:9321ff862abbe8e1532076e5fdc932371eff562334ac86984a836d77dfb717f5","sha256:1fd9b284a3ce6750b46ac36ffb90e34ba316d2304efd8848522169dd4f91da9a","sha256:e408a39a0b683cf94d3bd462c176acfa4c56b333ec6d9737aed6c616765c920d","sha256:8083ac6c7a074d27747cacb51e7ce4c6f5140ce83e4bfe9a6fd387a01ae9aae4","sha256:16bdcb6f65a3a864696fced98d103001692074a85009668de5d5298ec9693a05","sha256:470529a805d0ed430ae9d55de39e7b2c3eae4b6f41d9041ebc13da3c40dc358e","sha256:51e951dc5705e92cadc32dae632c6019398b246fae520b487d688e66c43c569a","sha256:27051a077cdcc043249c5fdf83c2451b87a3734288b619fc29fdb9116f8cf759","sha256:dd44883ded8b0888ffaa3eda54c99c6786af309824f12a534e66d49b57fa221d","sha256:1b8d5d101e2ae4b1e6801e28063907276294fa57ad0f2795e462c9161636eb14","sha256:806c98b52cc8f679706ad28d0243306dc3cd37e971ecf58a483b8c7266622538","sha256:1fb1b8252a252ea62e77d0c2d452d279a36be95da69b3e2fd2fb074aaf21330f","sha256:20371ceade59b9fa9daab837bc1b90ad6a60c59f1b943c8a20557ad673e41d18"]},"Metadata":{"LastTagTime":"0001-01-01T00:00:00Z"}}
+response:
+response:0
+response:
+request:POST /v1.32/containers/create HTTP/1.1
+request:accept: application/json
+request:content-type: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Content-Length: 2031
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 201 Created
+response:Api-Version: 1.41
+response:Content-Type: application/json
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:Content-Length: 88
+response:
+response:{"Id":"2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37","Warnings":[]}
+request:{"name":null,"authConfig":null,"platform":null,"Hostname":null,"Domainname":null,"User":null,"AttachStdin":null,"AttachStdout":null,"AttachStderr":null,"PortSpecs":null,"Tty":null,"OpenStdin":null,"StdinOnce":null,"Env":["POSTGRES_USER=quarkus","POSTGRES_PASSWORD=quarkus","POSTGRES_DB=default"],"Cmd":["postgres","-c","fsync=off"],"Healthcheck":null,"ArgsEscaped":null,"Entrypoint":null,"Image":"docker.io/postgres:14.1","Volumes":{},"WorkingDir":null,"MacAddress":null,"OnBuild":null,"NetworkDisabled":null,"ExposedPorts":{"5432/tcp":{}},"StopSignal":null,"StopTimeout":null,"HostConfig":{"Binds":[],"BlkioWeight":null,"BlkioWeightDevice":null,"BlkioDeviceReadBps":null,"BlkioDeviceWriteBps":null,"BlkioDeviceReadIOps":null,"BlkioDeviceWriteIOps":null,"MemorySwappiness":null,"NanoCpus":null,"CapAdd":null,"CapDrop":null,"ContainerIDFile":null,"CpuPeriod":null,"CpuRealtimePeriod":null,"CpuRealtimeRuntime":null,"CpuShares":null,"CpuQuota":null,"CpusetCpus":null,"CpusetMems":null,"Devices":null,"DeviceCgroupRules":null,"DeviceRequests":null,"DiskQuota":null,"Dns":null,"DnsOptions":null,"DnsSearch":null,"ExtraHosts":[],"GroupAdd":null,"IpcMode":null,"Cgroup":null,"Links":[],"LogConfig":null,"LxcConf":null,"Memory":null,"MemorySwap":null,"MemoryReservation":null,"KernelMemory":null,"NetworkMode":null,"OomKillDisable":null,"Init":null,"AutoRemove":null,"OomScoreAdj":null,"PortBindings":{"5432/tcp":[{"HostIp":"","HostPort":""}]},"Privileged":null,"PublishAllPorts":null,"ReadonlyRootfs":null,"RestartPolicy":null,"Ulimits":null,"CpuCount":null,"CpuPercent":null,"IOMaximumIOps":null,"IOMaximumBandwidth":null,"VolumesFrom":[],"Mounts":null,"PidMode":null,"Isolation":null,"SecurityOpt":null,"StorageOpt":null,"CgroupParent":null,"VolumeDriver":null,"ShmSize":null,"PidsLimit":null,"Runtime":null,"Tmpfs":null,"UTSMode":null,"UsernsMode":null,"Sysctls":null,"ConsoleSize":null},"Labels":{"org.testcontainers":"true","org.testcontainers.sessionId":"bde12f55-4cc2-4085-affa-534f5518a691"},"Shell":null,"NetworkingConfig":null}POST /v1.32/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/start HTTP/1.1
+request:accept: application/json
+request:content-type: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 204 No Content
+response:Api-Version: 1.41
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:
+request:GET /v1.32/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/json HTTP/1.1
+request:accept: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 200 OK
+response:Api-Version: 1.41
+response:Content-Type: application/json
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:Transfer-Encoding: chunked
+response:
+response:198e
+response:{"Id":"2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37","Created":"2022-02-04T02:16:34.677378614Z","Path":"docker-entrypoint.sh","Args":["postgres","-c","fsync=off"],"State":{"Status":"running","Running":true,"Paused":false,"Restarting":false,"OOMKilled":false,"Dead":false,"Pid":1452012,"ExitCode":0,"Error":"","StartedAt":"2022-02-04T02:16:34.934953937Z","FinishedAt":"0001-01-01T00:00:00Z"},"Image":"sha256:e94a3bb612246f1f672a0d11fbd16415e2f95d308b37d38deaa8c2bd3c0116d8","ResolvConfPath":"/var/lib/docker/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/resolv.conf","HostnamePath":"/var/lib/docker/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/hostname","HostsPath":"/var/lib/docker/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/hosts","LogPath":"/var/lib/docker/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37-json.log","Name":"/amazing_wescoff","RestartCount":0,"Driver":"overlay2","Platform":"linux","MountLabel":"","ProcessLabel":"","AppArmorProfile":"","ExecIDs":null,"HostConfig":{"Binds":[],"ContainerIDFile":"","LogConfig":{"Type":"json-file","Config":{}},"NetworkMode":"default","PortBindings":{"5432/tcp":[{"HostIp":"","HostPort":""}]},"RestartPolicy":{"Name":"","MaximumRetryCount":0},"AutoRemove":false,"VolumeDriver":"","VolumesFrom":[],"CapAdd":null,"CapDrop":null,"CgroupnsMode":"host","Dns":null,"DnsOptions":null,"DnsSearch":null,"ExtraHosts":[],"GroupAdd":null,"IpcMode":"shareable","Cgroup":"","Links":null,"OomScoreAdj":0,"PidMode":"","Privileged":false,"PublishAllPorts":false,"ReadonlyRootfs":false,"SecurityOpt":null,"UTSMode":"","UsernsMode":"","ShmSize":67108864,"Runtime":"runc","ConsoleSize":[0,0],"Isolation":"","CpuShares":0,"Memory":0,"NanoCpus":0,"CgroupParent":"","BlkioWeight":0,"BlkioWeightDevice":null,"BlkioDeviceReadBps":null,"BlkioDeviceWriteBps":null,"BlkioDeviceReadIOps":null,"BlkioDeviceWriteIOps":null,"CpuPeriod":0,"CpuQuota":0,"CpuRealtimePeriod":0,"CpuRealtimeRuntime":0,"CpusetCpus":"","CpusetMems":"","Devices":null,"DeviceCgroupRules":null,"DeviceRequests":null,"KernelMemory":0,"KernelMemoryTCP":0,"MemoryReservation":0,"MemorySwap":0,"MemorySwappiness":null,"OomKillDisable":false,"PidsLimit":null,"Ulimits":null,"CpuCount":0,"CpuPercent":0,"IOMaximumIOps":0,"IOMaximumBandwidth":0,"MaskedPaths":["/proc/asound","/proc/acpi","/proc/kcore","/proc/keys","/proc/latency_stats","/proc/timer_list","/proc/timer_stats","/proc/sched_debug","/proc/scsi","/sys/firmware"],"ReadonlyPaths":["/proc/bus","/proc/fs","/proc/irq","/proc/sys","/proc/sysrq-trigger"]},"GraphDriver":{"Data":{"LowerDir":"/var/lib/docker/overlay2/b958fa887de4c2682221044d61e04b306fbece31582da53fdbb603159b20e335-init/diff:/var/lib/docker/overlay2/5669b53b469fc29786be30e9fd90c2a0573fa5b0af5e9ec86847f240f6ebcd88/diff:/var/lib/docker/overlay2/2efbbaba203e086992397e37e3684acafa770bf5a771cef9a9f161d3c362c671/diff:/var/lib/docker/overlay2/be97b70be1c8dc1248f68517b5821f584b3b812158faa981362a888706434b3c/diff:/var/lib/docker/overlay2/e513222fa269966fe5a28cf43892fef2c223fd2048c7af9c0cac1e61dee76877/diff:/var/lib/docker/overlay2/8c3a5a6dcc0e8aecc5dbcf94514f2317934aa8ec330a868a224df0defa7d4fe3/diff:/var/lib/docker/overlay2/f41bda7aabbb02e163d3ceaff08958b93701a784bc3dccc1c5813e0e8b59d278/diff:/var/lib/docker/overlay2/90f34a447e5d8e260fccb141e68a0f37eeb1e64647d1215248d030965d2fc596/diff:/var/lib/docker/overlay2/332002fc1d520bd39c0076ed38882a55a66aa946d129e15f036fd90ced1b99da/diff:/var/lib/docker/overlay2/8cfb9835b77e989a773f1517a756faa5fe99fce3ce26b7aa65f04b35f7995412/diff:/var/lib/docker/overlay2/fabc858b50ea6dbf33688a173380d4764be7a300b0ae345f8d7e23fc5e22433b/diff:/var/lib/docker/overlay2/06acb3f3ae212f592f0b138134eb5e6e12d06eb00ea700e1bde10dfc95544ee8/diff:/var/lib/docker/overlay2/a0c4eb14aa5b6aa0449576259a1c7b71d077edbd08a096c235f66de1b8566fea/diff:/var/lib/docker/overlay2/c9314f8688317a15c70d594fa5f465e042e58919e26e0b31a40a29389f2e1992/diff","MergedDir":"/var/lib/docker/overlay2/b958fa887de4c2682221044d61e04b306fbece31582da53fdbb603159b20e335/merged","UpperDir":"/var/lib/docker/overlay2/b958fa887de4c2682221044d61e04b306fbece31582da53fdbb603159b20e335/diff","WorkDir":"/var/lib/docker/overlay2/b958fa887de4c2682221044d61e04b306fbece31582da53fdbb603159b20e335/work"},"Name":"overlay2"},"Mounts":[{"Type":"volume","Name":"99a654fa8236242d3e87f888c7c3b8d1f2f20695e2a7a8b9a26a75674ef4411a","Source":"/var/lib/docker/volumes/99a654fa8236242d3e87f888c7c3b8d1f2f20695e2a7a8b9a26a75674ef4411a/_data","Destination":"/var/lib/postgresql/data","Driver":"local","Mode":"","RW":true,"Propagation":""}],"Config":{"Hostname":"2f380e4741a4","Domainname":"","User":"","AttachStdin":false,"AttachStdout":false,"AttachStderr":false,"ExposedPorts":{"5432/tcp":{}},"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["POSTGRES_USER=quarkus","POSTGRES_PASSWORD=quarkus","POSTGRES_DB=default","PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/14/bin","GOSU_VERSION=1.14","LANG=en_US.utf8","PG_MAJOR=14","PG_VERSION=14.1-1.pgdg110+1","PGDATA=/var/lib/postgresql/data"],"Cmd":["postgres","-c","fsync=off"],"Image":"docker.io/postgres:14.1","Volumes":{"/var/lib/postgresql/data":{}},"WorkingDir":"","Entrypoint":["docker-entrypoint.sh"],"OnBuild":null,"Labels":{"org.testcontainers":"true","org.testcontainers.sessionId":"bde12f55-4cc2-4085-affa-534f5518a691"},"StopSignal":"SIGINT"},"NetworkSettings":{"Bridge":"","SandboxID":"04904cb68309d691c098225c7f733a5c6ae2c20641e166f08ccbe509caa8aca3","HairpinMode":false,"LinkLocalIPv6Address":"","LinkLocalIPv6PrefixLen":0,"Ports":{"5432/tcp":[{"HostIp":"0.0.0.0","HostPort":"49224"}]},"SandboxKey":"/var/run/docker/netns/04904cb68309","SecondaryIPAddresses":null,"SecondaryIPv6Addresses":null,"EndpointID":"e73c33cd54514bf4ce458d1c6c3907a2eb3ba705007142bafe6b5e4b9a6eca56","Gateway":"172.17.0.1","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"IPAddress":"172.17.0.4","IPPrefixLen":16,"IPv6Gateway":"","MacAddress":"02:42:ac:11:00:04","Networks":{"bridge":{"IPAMConfig":null,"Links":null,"Aliases":null,"NetworkID":"09531449f7966d9b964a855c4943befc3b93cd44c857f39798e4b0689a286d76","EndpointID":"e73c33cd54514bf4ce458d1c6c3907a2eb3ba705007142bafe6b5e4b9a6eca56","Gateway":"172.17.0.1","IPAddress":"172.17.0.4","IPPrefixLen":16,"IPv6Gateway":"","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"MacAddress":"02:42:ac:11:00:04","DriverOpts":null}}}}
+response:
+response:0
+response:
+request:GET /v1.32/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/json HTTP/1.1
+request:accept: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 200 OK
+response:Api-Version: 1.41
+response:Content-Type: application/json
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:Transfer-Encoding: chunked
+response:
+response:198e
+response:{"Id":"2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37","Created":"2022-02-04T02:16:34.677378614Z","Path":"docker-entrypoint.sh","Args":["postgres","-c","fsync=off"],"State":{"Status":"running","Running":true,"Paused":false,"Restarting":false,"OOMKilled":false,"Dead":false,"Pid":1452012,"ExitCode":0,"Error":"","StartedAt":"2022-02-04T02:16:34.934953937Z","FinishedAt":"0001-01-01T00:00:00Z"},"Image":"sha256:e94a3bb612246f1f672a0d11fbd16415e2f95d308b37d38deaa8c2bd3c0116d8","ResolvConfPath":"/var/lib/docker/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/resolv.conf","HostnamePath":"/var/lib/docker/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/hostname","HostsPath":"/var/lib/docker/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/hosts","LogPath":"/var/lib/docker/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37-json.log","Name":"/amazing_wescoff","RestartCount":0,"Driver":"overlay2","Platform":"linux","MountLabel":"","ProcessLabel":"","AppArmorProfile":"","ExecIDs":null,"HostConfig":{"Binds":[],"ContainerIDFile":"","LogConfig":{"Type":"json-file","Config":{}},"NetworkMode":"default","PortBindings":{"5432/tcp":[{"HostIp":"","HostPort":""}]},"RestartPolicy":{"Name":"","MaximumRetryCount":0},"AutoRemove":false,"VolumeDriver":"","VolumesFrom":[],"CapAdd":null,"CapDrop":null,"CgroupnsMode":"host","Dns":null,"DnsOptions":null,"DnsSearch":null,"ExtraHosts":[],"GroupAdd":null,"IpcMode":"shareable","Cgroup":"","Links":null,"OomScoreAdj":0,"PidMode":"","Privileged":false,"PublishAllPorts":false,"ReadonlyRootfs":false,"SecurityOpt":null,"UTSMode":"","UsernsMode":"","ShmSize":67108864,"Runtime":"runc","ConsoleSize":[0,0],"Isolation":"","CpuShares":0,"Memory":0,"NanoCpus":0,"CgroupParent":"","BlkioWeight":0,"BlkioWeightDevice":null,"BlkioDeviceReadBps":null,"BlkioDeviceWriteBps":null,"BlkioDeviceReadIOps":null,"BlkioDeviceWriteIOps":null,"CpuPeriod":0,"CpuQuota":0,"CpuRealtimePeriod":0,"CpuRealtimeRuntime":0,"CpusetCpus":"","CpusetMems":"","Devices":null,"DeviceCgroupRules":null,"DeviceRequests":null,"KernelMemory":0,"KernelMemoryTCP":0,"MemoryReservation":0,"MemorySwap":0,"MemorySwappiness":null,"OomKillDisable":false,"PidsLimit":null,"Ulimits":null,"CpuCount":0,"CpuPercent":0,"IOMaximumIOps":0,"IOMaximumBandwidth":0,"MaskedPaths":["/proc/asound","/proc/acpi","/proc/kcore","/proc/keys","/proc/latency_stats","/proc/timer_list","/proc/timer_stats","/proc/sched_debug","/proc/scsi","/sys/firmware"],"ReadonlyPaths":["/proc/bus","/proc/fs","/proc/irq","/proc/sys","/proc/sysrq-trigger"]},"GraphDriver":{"Data":{"LowerDir":"/var/lib/docker/overlay2/b958fa887de4c2682221044d61e04b306fbece31582da53fdbb603159b20e335-init/diff:/var/lib/docker/overlay2/5669b53b469fc29786be30e9fd90c2a0573fa5b0af5e9ec86847f240f6ebcd88/diff:/var/lib/docker/overlay2/2efbbaba203e086992397e37e3684acafa770bf5a771cef9a9f161d3c362c671/diff:/var/lib/docker/overlay2/be97b70be1c8dc1248f68517b5821f584b3b812158faa981362a888706434b3c/diff:/var/lib/docker/overlay2/e513222fa269966fe5a28cf43892fef2c223fd2048c7af9c0cac1e61dee76877/diff:/var/lib/docker/overlay2/8c3a5a6dcc0e8aecc5dbcf94514f2317934aa8ec330a868a224df0defa7d4fe3/diff:/var/lib/docker/overlay2/f41bda7aabbb02e163d3ceaff08958b93701a784bc3dccc1c5813e0e8b59d278/diff:/var/lib/docker/overlay2/90f34a447e5d8e260fccb141e68a0f37eeb1e64647d1215248d030965d2fc596/diff:/var/lib/docker/overlay2/332002fc1d520bd39c0076ed38882a55a66aa946d129e15f036fd90ced1b99da/diff:/var/lib/docker/overlay2/8cfb9835b77e989a773f1517a756faa5fe99fce3ce26b7aa65f04b35f7995412/diff:/var/lib/docker/overlay2/fabc858b50ea6dbf33688a173380d4764be7a300b0ae345f8d7e23fc5e22433b/diff:/var/lib/docker/overlay2/06acb3f3ae212f592f0b138134eb5e6e12d06eb00ea700e1bde10dfc95544ee8/diff:/var/lib/docker/overlay2/a0c4eb14aa5b6aa0449576259a1c7b71d077edbd08a096c235f66de1b8566fea/diff:/var/lib/docker/overlay2/c9314f8688317a15c70d594fa5f465e042e58919e26e0b31a40a29389f2e1992/diff","MergedDir":"/var/lib/docker/overlay2/b958fa887de4c2682221044d61e04b306fbece31582da53fdbb603159b20e335/merged","UpperDir":"/var/lib/docker/overlay2/b958fa887de4c2682221044d61e04b306fbece31582da53fdbb603159b20e335/diff","WorkDir":"/var/lib/docker/overlay2/b958fa887de4c2682221044d61e04b306fbece31582da53fdbb603159b20e335/work"},"Name":"overlay2"},"Mounts":[{"Type":"volume","Name":"99a654fa8236242d3e87f888c7c3b8d1f2f20695e2a7a8b9a26a75674ef4411a","Source":"/var/lib/docker/volumes/99a654fa8236242d3e87f888c7c3b8d1f2f20695e2a7a8b9a26a75674ef4411a/_data","Destination":"/var/lib/postgresql/data","Driver":"local","Mode":"","RW":true,"Propagation":""}],"Config":{"Hostname":"2f380e4741a4","Domainname":"","User":"","AttachStdin":false,"AttachStdout":false,"AttachStderr":false,"ExposedPorts":{"5432/tcp":{}},"Tty":false,"OpenStdin":false,"StdinOnce":false,"Env":["POSTGRES_USER=quarkus","POSTGRES_PASSWORD=quarkus","POSTGRES_DB=default","PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/lib/postgresql/14/bin","GOSU_VERSION=1.14","LANG=en_US.utf8","PG_MAJOR=14","PG_VERSION=14.1-1.pgdg110+1","PGDATA=/var/lib/postgresql/data"],"Cmd":["postgres","-c","fsync=off"],"Image":"docker.io/postgres:14.1","Volumes":{"/var/lib/postgresql/data":{}},"WorkingDir":"","Entrypoint":["docker-entrypoint.sh"],"OnBuild":null,"Labels":{"org.testcontainers":"true","org.testcontainers.sessionId":"bde12f55-4cc2-4085-affa-534f5518a691"},"StopSignal":"SIGINT"},"NetworkSettings":{"Bridge":"","SandboxID":"04904cb68309d691c098225c7f733a5c6ae2c20641e166f08ccbe509caa8aca3","HairpinMode":false,"LinkLocalIPv6Address":"","LinkLocalIPv6PrefixLen":0,"Ports":{"5432/tcp":[{"HostIp":"0.0.0.0","HostPort":"49224"}]},"SandboxKey":"/var/run/docker/netns/04904cb68309","SecondaryIPAddresses":null,"SecondaryIPv6Addresses":null,"EndpointID":"e73c33cd54514bf4ce458d1c6c3907a2eb3ba705007142bafe6b5e4b9a6eca56","Gateway":"172.17.0.1","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"IPAddress":"172.17.0.4","IPPrefixLen":16,"IPv6Gateway":"","MacAddress":"02:42:ac:11:00:04","Networks":{"bridge":{"IPAMConfig":null,"Links":null,"Aliases":null,"NetworkID":"09531449f7966d9b964a855c4943befc3b93cd44c857f39798e4b0689a286d76","EndpointID":"e73c33cd54514bf4ce458d1c6c3907a2eb3ba705007142bafe6b5e4b9a6eca56","Gateway":"172.17.0.1","IPAddress":"172.17.0.4","IPPrefixLen":16,"IPv6Gateway":"","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"MacAddress":"02:42:ac:11:00:04","DriverOpts":null}}}}
+response:
+response:0
+response:
+request:GET /v1.32/containers/2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37/logs?stdout=true&stderr=true&follow=true&since=0 HTTP/1.1
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 200 OK
+response:Api-Version: 1.41
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:34 GMT
+response:Transfer-Encoding: chunked
+response:
+response:56
+response:      NThe files belonging to this database system will be owned by user "postgres".
+response:
+response:34
+response:      ,This user must also own the server process.
+response:
+response:9
+response:      
+response:
+response:4b
+response:      CThe database cluster will be initialized with locale "en_US.utf8".
+response:
+response:4a
+response:      BThe default database encoding has accordingly been set to "UTF8".
+response:
+response:48
+response:      @The default text search configuration will be set to "english".
+response:
+response:9
+response:      
+response:
+response:2a
+response:      "Data page checksums are disabled.
+response:
+response:9
+response:      
+response:
+response:51
+response:      Ifixing permissions on existing directory /var/lib/postgresql/data ... ok
+response:
+response:27
+response:      creating subdirectories ... ok
+response:
+response:41
+response:      9selecting dynamic shared memory implementation ... posix
+response:
+response:32
+response:      *selecting default max_connections ... 100
+response:
+response:33
+response:      +selecting default shared_buffers ... 128MB
+response:
+response:30
+response:      (selecting default time zone ... Etc/UTC
+response:
+response:2c
+response:      $creating configuration files ... ok
+response:
+response:28
+response:       running bootstrap script ... ok
+response:
+response:38
+response:      0performing post-bootstrap initialization ... ok
+response:
+response:24
+response:      syncing data to disk ... ok
+response:
+response:9
+response:      
+response:
+response:9
+response:      
+response:
+response:3e
+response:      6Success. You can now start the database server using:
+response:
+response:9
+response:      
+response:
+response:40
+response:      8    pg_ctl -D /var/lib/postgresql/data -l logfile start
+response:
+response:4f
+response:      Ginitdb: warning: enabling "trust" authentication for local connections
+response:
+response:4e
+response:      FYou can change this by editing pg_hba.conf or using the option -A, or
+response:
+response:44
+response:      <--auth-local and --auth-host, the next time you run initdb.
+response:
+response:9
+response:      
+response:
+response:d3
+response:      �waiting for server to start....2022-02-04 02:16:35.479 UTC [48] LOG:  starting PostgreSQL 14.1 (Debian 14.1-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+response:
+response:6c
+response:      d2022-02-04 02:16:35.480 UTC [48] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+response:
+response:68
+response:      `2022-02-04 02:16:35.481 UTC [49] LOG:  database system was shut down at 2022-02-04 02:16:35 UTC
+response:
+response:5e
+response:      V2022-02-04 02:16:35.483 UTC [48] LOG:  database system is ready to accept connections
+response:
+response:e
+response:       done
+response:
+response:17
+response:      server started
+response:
+response:18
+response:      CREATE DATABASE
+response:
+response:9
+response:      
+response:
+response:9
+response:      
+response:
+response:54
+response:      L/usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*
+response:
+response:9
+response:      
+response:
+response:4e
+response:      F2022-02-04 02:16:35.633 UTC [48] LOG:  received fast shutdown request
+response:
+response:50
+response:      H2022-02-04 02:16:35.633 UTC [48] LOG:  aborting any active transactions
+response:
+response:a4
+response:      �waiting for server to shut down....2022-02-04 02:16:35.634 UTC [48] LOG:  background worker "logical replication launcher" (PID 55) exited with exit code 1
+response:
+response:3d
+response:      52022-02-04 02:16:35.634 UTC [50] LOG:  shutting down
+response:
+response:4c
+response:      D2022-02-04 02:16:35.637 UTC [48] LOG:  database system is shut down
+response:
+response:e
+response:       done
+response:
+response:17
+response:      server stopped
+response:
+response:9
+response:      
+response:
+response:3e
+response:      6PostgreSQL init process complete; ready for start up.
+response:
+response:9
+response:      
+response:
+response:b3
+response:      �2022-02-04 02:16:35.750 UTC [1] LOG:  starting PostgreSQL 14.1 (Debian 14.1-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+response:
+response:5d
+response:      U2022-02-04 02:16:35.750 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+response:
+response:58
+response:      P2022-02-04 02:16:35.750 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+response:
+response:6b
+response:      c2022-02-04 02:16:35.750 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+response:
+response:68
+response:      `2022-02-04 02:16:35.752 UTC [62] LOG:  database system was shut down at 2022-02-04 02:16:35 UTC
+response:
+response:5d
+response:      U2022-02-04 02:16:35.755 UTC [1] LOG:  database system is ready to accept connections
+response:
+Accepted
+request:GET /v1.32/containers/json?all=true&filters=%7B%22id%22%3A%5B%222f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37%22%5D%7D HTTP/1.1
+request:accept: application/json
+request:Accept-Encoding: gzip, x-gzip, deflate
+request:Host: localhost:7777
+request:Connection: keep-alive
+request:User-Agent: Apache-HttpClient/5.0.3 (Java/17)
+request:
+response:HTTP/1.1 200 OK
+Exception in thread "Thread-7" java.lang.RuntimeException: java.net.SocketException: Connection reset
+	at com.github.stuartwdouglas.dockerfaker.InputPump.run(BogusHost.java:80)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:323)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/java.io.InputStream.read(InputStream.java:218)
+	at com.github.stuartwdouglas.dockerfaker.InputPump.run(BogusHost.java:64)
+	... 1 more
+response:Api-Version: 1.41
+response:Content-Type: application/json
+response:Docker-Experimental: false
+response:Ostype: linux
+response:Server: Docker/20.10.3 (linux)
+response:Date: Fri, 04 Feb 2022 02:16:35 GMT
+response:Content-Length: 1215
+response:
+response:[{"Id":"2f380e4741a47102150577b26abd03b477d386db971c8e7e499dc40667b4cb37","Names":["/amazing_wescoff"],"Image":"docker.io/postgres:14.1","ImageID":"sha256:e94a3bb612246f1f672a0d11fbd16415e2f95d308b37d38deaa8c2bd3c0116d8","Command":"docker-entrypoint.sh postgres -c fsync=off","Created":1643940994,"Ports":[{"IP":"0.0.0.0","PrivatePort":5432,"PublicPort":49224,"Type":"tcp"}],"Labels":{"org.testcontainers":"true","org.testcontainers.sessionId":"bde12f55-4cc2-4085-affa-534f5518a691"},"State":"running","Status":"Up Less than a second","HostConfig":{"NetworkMode":"default"},"NetworkSettings":{"Networks":{"bridge":{"IPAMConfig":null,"Links":null,"Aliases":null,"NetworkID":"09531449f7966d9b964a855c4943befc3b93cd44c857f39798e4b0689a286d76","EndpointID":"e73c33cd54514bf4ce458d1c6c3907a2eb3ba705007142bafe6b5e4b9a6eca56","Gateway":"172.17.0.1","IPAddress":"172.17.0.4","IPPrefixLen":16,"IPv6Gateway":"","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"MacAddress":"02:42:ac:11:00:04","DriverOpts":null}}},"Mounts":[{"Type":"volume","Name":"99a654fa8236242d3e87f888c7c3b8d1f2f20695e2a7a8b9a26a75674ef4411a","Source":"","Destination":"/var/lib/postgresql/data","Driver":"local","Mode":"","RW":true,"Propagation":""}]}]
